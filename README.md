@@ -31,8 +31,8 @@ You can run this repository virtually by using GitHub Codespaces. The button wil
 2. Clone the repository:
 
     ```shell
-    git clone https://github.com/Azure-Samples/python-ai-agents-demos.git
-    cd python-ai-agents-demos
+    git clone https://github.com/oluwatunbi/Traveller_health_guide.git
+    cd Traveller_health_guide.git
     ```
 
 3. Set up a virtual environment:
