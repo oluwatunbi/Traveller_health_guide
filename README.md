@@ -21,3 +21,42 @@ You can run this repository virtually by using GitHub Codespaces. The button wil
 2. Open a terminal window
 3. Continue with the steps to run the examples
 
+   ### Local environment
+
+1. Make sure the following tools are installed:
+
+    * [Python 3.9+](https://www.python.org/downloads/)
+    * Git
+
+2. Clone the repository:
+
+    ```shell
+    git clone https://github.com/Azure-Samples/python-ai-agents-demos.git
+    cd python-ai-agents-demos
+    ```
+
+3. Set up a virtual environment:
+
+    ```shell
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
+
+4. Install the requirements:
+
+    ```shell
+    pip install -r requirements.txt
+    ```
+5. To Run Chainlit
+   chainlit run repo/path -w
+
+## Running the Python examples
+
+1. Configure your environment variables by copying the `.env.example` to `.env` and updating the values:
+
+    ```shell
+    cp .env.example .env
+    ```
+
+2. Edit the `.env` file with your API keys and configuration settings.
+
